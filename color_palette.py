@@ -33,7 +33,7 @@ def main():
 
 		r=cv2.getTrackbarPos('Red',windowname)			#gets current value of 1st trackbar
 
-		img[:]=[b,g,r]									#asigning the respective BGR color to image pixels
+		img[:]=[b,g,r]									#assigning the respective BGR color to image pixels
 
 		k=cv2.waitKey(1) & 0xFF		#for 64-bit for 32-bit   "k=waitKey(1)"  
 		if k==27:				#comes out of the loop when Esc key is pressed
