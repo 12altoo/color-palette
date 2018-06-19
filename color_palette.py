@@ -27,11 +27,11 @@ def main():
 	while True:
 		cv2.imshow(windowname,img)						#displaying image
 
-		b=cv2.getTrackbarPos('Blue',windowname)			#gets current calue of 1st trackbar
+		b=cv2.getTrackbarPos('Blue',windowname)			#gets current value of 1st trackbar
 
-		g=cv2.getTrackbarPos('Green',windowname)		#gets current calue of 1st trackbar
+		g=cv2.getTrackbarPos('Green',windowname)		#gets current value of 1st trackbar
 
-		r=cv2.getTrackbarPos('Red',windowname)			#gets current calue of 1st trackbar
+		r=cv2.getTrackbarPos('Red',windowname)			#gets current value of 1st trackbar
 
 		img[:]=[b,g,r]									#asigning the respective BGR color to image pixels
 
